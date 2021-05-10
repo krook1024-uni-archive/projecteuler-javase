@@ -5,7 +5,7 @@ import java.util.Stack;
 public class Problem3 {
 
     public static Long largestPrimeFactor(Long n) {
-        Stack<Long> stack = new Stack<Long>();
+        Stack<Long> stack = new Stack<>();
 
         while (n % 2 == 0) {
             stack.push(2L);
